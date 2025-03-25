@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\jade.cobra.Domain\jade.cobra.Domain.csproj" />
+    <ProjectReference Include="..\jade.cobra.Data\jade.cobra.Data.csproj" />
   </ItemGroup>
 
 </Project>
