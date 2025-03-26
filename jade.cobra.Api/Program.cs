@@ -1,6 +1,7 @@
 using jade.cobra.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Sqlite;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,9 +9,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
-builder.Services.AddDbContext<StoreContext>(options => options.UseSqlite("Data Source=../Registrar.sqlite",
-    b => b.MigrationsAssembly("jade.cobra.Api")));
-    
+builder.Services.AddDbContext<StoreContext>(options => 
+{ 
+    options.UseSqlite("Data Source=../Registrar.sqlite",
+b => b.MigrationsAssembly("jade.cobra.Api"));
+options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking); 
+});
+
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
