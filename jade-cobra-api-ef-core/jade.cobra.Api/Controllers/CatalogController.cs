@@ -54,15 +54,23 @@ namespace jade.cobra.Api.Controllers
                 return NotFound();
             }
             item.AddRating(rating);
-            _db.SaveChanged();
+            _db.SaveChanges();
 
             return Ok(item);
         }
 
         [HttpPut("{id:int}")]
-        public IActionResult Put(int id, Item item){
-            //return Ok(item);
-            return NoContent();
+        public IActionResult PutItem(int id, Item item){
+            if (id != item.Id) {
+                return BadRequest();
+            }
+            if (_db.Items.Find(id) == null){
+                return NotFound();
+            }
+            _db.Entry(item).State = EntityState.Modified;
+            _db.SaveChanges();
+            return Ok(item);
+            //return NoContent();
         }
 
         [HttpDelete("{id:int}")]
