@@ -18,6 +18,10 @@ public Rating (int stars, string userName, string review)
     {
         throw new ArgumentException( "UserName cannot be null.");
     }
+    if(string.IsNullOrEmpty(review))
+    {
+        throw new ArgumentException( "Review cannot be null.");
+    }
 
     this.Stars = stars;
     this.UserName = userName;
