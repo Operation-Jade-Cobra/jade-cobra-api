@@ -1,0 +1,12 @@
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\bin\Debug\net9.0\jade.cobra.Domain.deps.json
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\bin\Debug\net9.0\jade.cobra.Domain.dll
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\bin\Debug\net9.0\jade.cobra.Domain.pdb
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\obj\Debug\net9.0\jade.cobra.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\obj\Debug\net9.0\jade.cobra.Domain.AssemblyInfoInputs.cache
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\obj\Debug\net9.0\jade.cobra.Domain.AssemblyInfo.cs
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\obj\Debug\net9.0\jade.cobra.Domain.csproj.CoreCompileInputs.cache
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\obj\Debug\net9.0\jade.cobra.Domain.sourcelink.json
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\obj\Debug\net9.0\jade.cobra.Domain.dll
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\obj\Debug\net9.0\refint\jade.cobra.Domain.dll
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\obj\Debug\net9.0\jade.cobra.Domain.pdb
+C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Domain\obj\Debug\net9.0\ref\jade.cobra.Domain.dll

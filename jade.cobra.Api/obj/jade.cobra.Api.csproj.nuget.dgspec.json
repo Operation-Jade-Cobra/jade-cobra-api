@@ -1,0 +1,245 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Api\\jade.cobra.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Api\\jade.cobra.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Api\\jade.cobra.Api.csproj",
+        "projectName": "jade.cobra.Api",
+        "projectPath": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Api\\jade.cobra.Api.csproj",
+        "packagesPath": "C:\\Users\\debor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\debor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Data\\jade.cobra.Data.csproj": {
+                "projectPath": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Data\\jade.cobra.Data.csproj"
+              },
+              "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj": {
+                "projectPath": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Data\\jade.cobra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Data\\jade.cobra.Data.csproj",
+        "projectName": "jade.cobra.Data",
+        "projectPath": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Data\\jade.cobra.Data.csproj",
+        "packagesPath": "C:\\Users\\debor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\debor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj": {
+                "projectPath": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj",
+        "projectName": "jade.cobra.Domain",
+        "projectPath": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj",
+        "packagesPath": "C:\\Users\\debor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\debor\\Documents\\Class 24-25\\SP25\\ACCTMIS 4630\\jade-cobra-api\\jade.cobra.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\debor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
