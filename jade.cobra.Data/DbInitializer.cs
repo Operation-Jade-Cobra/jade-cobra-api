@@ -15,6 +15,10 @@ namespace jade.cobra.Data
                 new Item ("Shorts", "Ohio State shorts", "Nike", 44.99m )
                 {
                     Id = 2
+                },
+                new Item ("Shoes", "Ohio State shoes", "Nike", 129.99m)
+                {
+                    Id = 3
                 }
             );
         }

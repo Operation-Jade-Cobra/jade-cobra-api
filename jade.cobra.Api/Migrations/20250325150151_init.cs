@@ -7,7 +7,7 @@
 namespace jade.cobra.Api.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -55,7 +55,8 @@ namespace jade.cobra.Api.Migrations
                 values: new object[,]
                 {
                     { 1, "Nike", "Ohio State shirt", "Shirt", 29.99m },
-                    { 2, "Nike", "Ohio State shorts", "Shorts", 44.99m }
+                    { 2, "Nike", "Ohio State shorts", "Shorts", 44.99m },
+                    { 3, "Nike", "Ohio State shoes", "Shoes", 129.99m}
                 });
 
             migrationBuilder.CreateIndex(
