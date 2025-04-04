@@ -8,7 +8,7 @@ namespace jade.cobra.Domain.Catalog
         public string? Description {get;set;}
         public string? Brand {get;set;}
         public decimal Price {get;set;}
-        public List<Rating>? Ratings {get;set;} = new List<Rating>();
+        public List<Rating> Ratings {get;set;} = new List<Rating>();
         public void AddRating(Rating rating){
             this.Ratings.Add(rating);
         }
@@ -22,6 +22,10 @@ namespace jade.cobra.Domain.Catalog
         if(string.IsNullOrEmpty(description))
         {
             throw new ArgumentNullException(description);
+        }
+        if(string.IsNullOrEmpty(brand))
+        {
+            throw new ArgumentNullException(brand);
         }
         if(price < 0.00m)
         {
