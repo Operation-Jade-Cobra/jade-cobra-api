@@ -87,7 +87,7 @@ namespace jade.cobra.Api.Controllers
         }
 
         [HttpPut("{id:int}")]
-        public IActionResult Put(int id, [FromBody] Item item){
+        public IActionResult PutItem(int id, [FromBody] Item item){
             if (id != item.Id){
                 return BadRequest();
             }

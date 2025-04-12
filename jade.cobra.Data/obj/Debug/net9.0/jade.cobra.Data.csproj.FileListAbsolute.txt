@@ -16,3 +16,12 @@ C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra
 C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\jade.cobra.Data.pdb
 C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\jade.cobra.Data.genruntimeconfig.cache
 C:\Users\debor\Documents\Class 24-25\SP25\ACCTMIS 4630\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\ref\jade.cobra.Data.dll
+C:\Users\leyla\Desktop\4630 Project\RepoClone 4525\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\jade.cobra.Data.dll
+C:\Users\leyla\Desktop\4630 Project\RepoClone 4525\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\refint\jade.cobra.Data.dll
+C:\Users\leyla\Desktop\4630 Project\RepoClone 4525\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\jade.cobra.Data.pdb
+C:\Users\leyla\Desktop\4630 Project\RepoClone 4525\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\jade.cobra.Data.csproj.AssemblyReference.cache
+C:\Users\leyla\Desktop\4630 Project\RepoClone 4525\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\jade.cobra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\leyla\Desktop\4630 Project\RepoClone 4525\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\jade.cobra.Data.AssemblyInfoInputs.cache
+C:\Users\leyla\Desktop\4630 Project\RepoClone 4525\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\jade.cobra.Data.AssemblyInfo.cs
+C:\Users\leyla\Desktop\4630 Project\RepoClone 4525\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\jade.cobra.Data.csproj.CoreCompileInputs.cache
+C:\Users\leyla\Desktop\4630 Project\RepoClone 4525\jade-cobra-api\jade.cobra.Data\obj\Debug\net9.0\jade.cobra.Data.sourcelink.json

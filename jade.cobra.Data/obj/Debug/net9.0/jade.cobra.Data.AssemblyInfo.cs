@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jade.cobra.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7090ea5ccaf04d373a5bceabd564a9abdb036b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7759b6a9e2b131a076001f1fb04fc147e476d02c")]
 [assembly: System.Reflection.AssemblyProductAttribute("jade.cobra.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jade.cobra.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

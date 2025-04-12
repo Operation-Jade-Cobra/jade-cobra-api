@@ -2,6 +2,8 @@ using jade.cobra.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Sqlite;
 using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,15 +19,32 @@ options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 });
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+//builder.Services.AddOpenApi();
+
+//var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+/*if (app.Environment.IsDevelopment())
+{
+    app.MapOpenApi();
+}*/
+
+// Remove or comment out these if they exist
+// builder.Services.AddOpenApi();
+// app.MapOpenApi();
+
+// Add these instead:
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection();
 
