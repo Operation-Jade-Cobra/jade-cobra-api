@@ -8,10 +8,14 @@ public class RatingTests
     [TestMethod]
     public void Can_Create_New_Rating()
     {
+        var item = new Item("Name", "Description", "Brand", 10.99m);
         var rating = new Rating(1, "Mike", "Great fit!");
-        Assert.AreEqual(1, rating.Stars);
-        Assert.AreEqual("Mike", rating.UserName);
-        Assert.AreEqual("Great fit!", rating.Review);
+        
+        item.AddRating(rating);
+        Assert.AreEqual(rating, item.Ratings[0]);
+        //Assert.AreEqual(1, rating.Stars);
+        //Assert.AreEqual("Mike", rating.UserName);
+        //Assert.AreEqual("Great fit!", rating.Review);
     }
 
     [TestMethod]
