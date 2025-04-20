@@ -4,12 +4,43 @@ using Microsoft.EntityFrameworkCore.Sqlite;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 
+using jade.cobra.Api.Security;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+string authority = builder.Configuration["Auth0:Authority"] ?? throw new ArgumentNullException("Auth0:Authority");
+string audience = builder.Configuration["Auth0:Audience"] ?? throw new ArgumentNullException("Auth0:Audience");
+
+
+
+
 builder.Services.AddControllers();
+
+
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+})
+.AddJwtBearer(Options =>
+{
+    Options.Authority = authority;
+    Options.Audience = audience;
+});
+
+
+builder.Services.AddAuthorization(options => 
+{
+options.AddPolicy("delete:catalog", policy =>
+policy.RequireAuthenticatedUser().RequireClaim("scope", "delete:catalog"));
+});
+
+
 
 builder.Services.AddDbContext<StoreContext>(options => 
 { 
@@ -17,6 +48,19 @@ builder.Services.AddDbContext<StoreContext>(options =>
 b => b.MigrationsAssembly("jade.cobra.Api"));
 options.UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking); 
 });
+
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("https://localhost:3000")
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
+
+builder.Services.AddEndpointsApiExplorer();
+
 
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 //builder.Services.AddOpenApi();
@@ -48,6 +92,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseCors();
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 4525\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj": {}
+    "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 41925\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 4525\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj": {
+    "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 41925\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 4525\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 41925\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj",
         "projectName": "jade.cobra.Domain",
-        "projectPath": "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 4525\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj",
+        "projectPath": "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 41925\\jade-cobra-api\\jade.cobra.Domain\\jade.cobra.Domain.csproj",
         "packagesPath": "C:\\Users\\leyla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 4525\\jade-cobra-api\\jade.cobra.Domain\\obj\\",
+        "outputPath": "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 41925\\jade-cobra-api\\jade.cobra.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -41,8 +41,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.200"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -69,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

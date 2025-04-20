@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using jade.cobra.Domain.Catalog;
 using jade.cobra.Data;
 using System.Xml;
+using Microsoft.AspNetCore.Authorization;
 
 namespace jade.cobra.Api.Controllers
 {
@@ -101,6 +102,7 @@ namespace jade.cobra.Api.Controllers
         }
 
         [HttpDelete("{id:int}")]
+        [Authorize("delete:catalog")]
         public IActionResult DeleteItem(int id){
 
             var item = _db.Items.Find(id);

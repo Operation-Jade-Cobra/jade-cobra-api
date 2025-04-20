@@ -29,4 +29,8 @@
     <ProjectReference Include="..\jade.cobra.Data\jade.cobra.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
+</ItemGroup>
+
 </Project>
