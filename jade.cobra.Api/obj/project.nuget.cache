@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tt55N6hgHos=",
+  "dgSpecHash": "y/d5V02gEXg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 41925\\jade-cobra-api\\jade.cobra.api\\jade.cobra.Api.csproj",
+  "projectFilePath": "C:\\Users\\leyla\\Desktop\\4630 Project\\RepoClone 41925\\jade-cobra-api\\jade.cobra.Api\\jade.cobra.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leyla\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\leyla\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
